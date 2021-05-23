@@ -18,4 +18,3 @@ public class valormultiplicado {
         scan.close();
     }
 }
-https://github.com/Eduardo-Lopez85/Info2021-JAVA.git
