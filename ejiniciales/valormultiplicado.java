@@ -1,3 +1,5 @@
+package ejiniciales;
+
 import java.util.Scanner;
 
 public class valormultiplicado {
