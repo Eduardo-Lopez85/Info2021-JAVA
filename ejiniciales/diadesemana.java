@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class diadesemana {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        int cont = 1;
+        while (cont != 0){
         System.out.println("Ingrese el día de la semana 1-7");
         int dia = scan.nextInt();
 
@@ -33,6 +35,9 @@ public class diadesemana {
             case 6: {System.out.println("El dia es Sabado");break;}
             case 7: {System.out.println("El dia es Domingo");break;}
             default: {System.out.println("El numero ingresado no es valido");}
-        }scan.close();
+        }
+        System.out.println("Desea continuar? 0=NO / 1=SI ");
+        cont = scan.nextInt();}
+        scan.close();
     }
 }
