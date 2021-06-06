@@ -15,7 +15,7 @@ public class ej9 {
         
         System.out.println("Ingrese la letra a buscar");
         String ingreso = dato.nextLine();
-        //se podria mejorar con un try catch
+        //se podria mejorar con un try-catch??
         char  buscado = ingreso.charAt(0);
         int contar = 0;
         
