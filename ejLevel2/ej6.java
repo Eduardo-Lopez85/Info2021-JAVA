@@ -60,9 +60,12 @@ public class ej6 {
         for (Empleado emp : Empleados) {
             PagoNomina.put(emp.buscardni(), emp.calcularsalario());
         }
-
+        
+        //mostrar datos
+        System.out.println("Los valores a percibir, son los siguientes ");
+        System.out.println("   DNI      Sueldo");
         for(Map.Entry<Integer, Double> emp : PagoNomina.entrySet()){
-            System.out.println(emp.getKey() + " : " + emp.getValue());
+            System.out.println(emp.getKey() + "  =  " + emp.getValue());
         }
         
 
