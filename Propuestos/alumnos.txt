@@ -1,0 +1,5 @@
+Tito, Puente, Sistemas
+Perez, Juan, Administracion
+Lopez, Elba, Legales
+Gonzalez, Olga, Contabilidad
+Mierez, Oscar, Logistica 
