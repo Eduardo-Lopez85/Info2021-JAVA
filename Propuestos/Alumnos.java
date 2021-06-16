@@ -20,18 +20,9 @@ public class Alumnos {
         } catch (IOException error){
             error.printStackTrace();
         } 
-
+    
+      
        
-
-
-        
-        /*
-        ej 5, calcular edad
-        
-        private int edad() {
-            int diferencia = (int) ChronoUnit.DAYS.between(this.fechaNacimiento, LocalDate.now());
-            return diferencia/365;
-        }*/
 
     }
 }
